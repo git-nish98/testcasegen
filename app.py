@@ -5,7 +5,7 @@ import json, os
 app = Flask(__name__)
 
 
-MODEL_PATH = r"Llama-3.2-3B-Instruct-Q4_0.gguf"
+MODEL_PATH = "Llama-3.2-3B-Instruct-Q4_0.gguf"
 model = GPT4All(MODEL_PATH)
 
 
